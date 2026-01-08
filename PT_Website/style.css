@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: "Pixelify Sans", sans-serif;   
+    background: #52d24c;
+    color: white;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.logo {
+    width: 60px;
+}
+
+.Title {
+    font-size: 32px;
+}
+
+.center-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+.box-wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+
+.slider-box-wrapper {
+    position: relative;
+}
+
+
+.cat-behind1 {
+    position: absolute;
+    bottom: 1;     
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    z-index: 1;
+    pointer-events: none;
+    opacity: 0.95;
+}
+
+
+.cat-behind2 {
+    position: absolute;
+    bottom: 1;     
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    z-index: 1;
+    pointer-events: none;
+    opacity: 0.95;
+}
+
+
+.slider-box {
+    bottom: -100px; 
+    position: relative;
+    z-index: 2;
+    background: #52d24c;
+    padding: 50px;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+#frontStatus, #backStatus {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+input[type="range"] {
+    width: 100%;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 60px;
+    font-size: 12px;
+    opacity: 0.7;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platform Technologies Project</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Rubik+Pixels&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <img src="Home_Saver-removebg-preview.png" class="logo" alt="Logo">
+    <h1 class="Title pixelify-sans-700">Home Saver</h1>
+</header>
+
+<main class="center-container">
+
+    <div class="box-wrapper">
+
+        <div class="slider-box-wrapper">
+            <img src="cute-cat.gif" class="cat-behind1" alt="Cute Cat Front">
+            <div class="slider-box">
+                <h2>Front Door</h2>
+                <p id="frontStatus">Status: Idle</p>
+                <input type="range" min="0" max="1" value="0" id="frontSlider">
+            </div>
+        </div>
+
+      
+        <div class="slider-box-wrapper">
+            <img src="cute-cat.gif" class="cat-behind2" alt="Cute Cat Back">
+            <div class="slider-box">
+                <h2>Back Door</h2>
+                <p id="backStatus">Status: Idle</p>
+                <input type="range" min="0" max="1" value="0" id="backSlider">
+            </div>
+        </div>
+
+    </div>
+
+</main>
+
+<footer>
+    <p class="Footer"></p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
